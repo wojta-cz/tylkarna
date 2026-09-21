@@ -3,8 +3,8 @@ import { todayIso, toIsoDate } from '../utils/schedule'
 export const AVATAR_PALETTE = ['👑', '☕', '🌿', '🔥', '🍩', '🐝', '🍀', '⭐', '🎯', '🌸']
 
 export const SESSION_TYPES = {
-  opening: { key: 'opening', label: 'Opening', emoji: '🌅', time: '06:00–14:00', flexible: false },
-  closing: { key: 'closing', label: 'Closing', emoji: '🌙', time: '14:00–22:00', flexible: false },
+  opening: { key: 'otevirani', label: 'Otevírání', emoji: '🌅', time: '7:00-8:30', flexible: false },
+  closing: { key: 'zavirani', label: 'Zavírání', emoji: '🌙', time: '14:45-15:15', flexible: false },
   cleaning: { key: 'cleaning', label: 'Cleaning', emoji: '🧹', time: null, flexible: true },
   bored: { key: 'bored', label: "I'm Bored", emoji: '😴', time: null, flexible: true }
 }
