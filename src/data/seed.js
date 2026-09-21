@@ -5,8 +5,8 @@ export const AVATAR_PALETTE = ['👑', '☕', '🌿', '🔥', '🍩', '🐝', '�
 export const SESSION_TYPES = {
   opening: { key: 'otevirani', label: 'Otevírání', emoji: '🌅', time: '7:00-8:30', flexible: false },
   closing: { key: 'zavirani', label: 'Zavírání', emoji: '🌙', time: '14:45-15:15', flexible: false },
-  cleaning: { key: 'cleaning', label: 'Cleaning', emoji: '🧹', time: null, flexible: true },
-  bored: { key: 'bored', label: "I'm Bored", emoji: '😴', time: null, flexible: true }
+  cleaning: { key: 'cisteni', label: 'Uklízení', emoji: '🧹', time: null, flexible: true },
+  bored: { key: 'nuda', label: "Nudím se", emoji: '😴', time: null, flexible: true }
 }
 
 export const TAGS = {
